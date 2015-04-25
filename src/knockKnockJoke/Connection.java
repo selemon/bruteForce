@@ -1,3 +1,4 @@
+package knockKnockJoke;
 /**
  * A separate thread that is created by the server. This thread is used
  * to interact with the client.

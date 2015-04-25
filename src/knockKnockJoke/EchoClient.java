@@ -1,3 +1,4 @@
+package knockKnockJoke;
 /**
  * An echo client. The client enters data to the server, and the
  * server echoes the data back to the client.\
