@@ -1,0 +1,35 @@
+The changes that i have made in the EchoClient.java class is
+from line 33-37 where i changed what is being written to the
+server
+
+the code is the following:
+			out.println("Knock, knock");
+			System.out.println(in.readLine());
+			out.println("Adore");
+			System.out.println(in.readLine());
+			out.println("Adore is between us. Open up!");
+			
+The changes that i have made in the connection.java class is
+from line 47-51 where i changed what the connection checks for
+when it recives a joke
+
+the code is the following:
+				if (line.equals("Knock, knock")) {
+					response = "Who's there?";
+				} else if (line.equals("Adore")) {
+					response = "Adore who?";
+				} else if (line.equals("Adore is between us. Open up!")) {
+	
+			
+			
+The changes that i have made in the Search.java class is 
+in line 38 and line 43. in line 38 i parse for a forth argument
+that should be passed from the user which is the range. In line 
+43 i have replaced the for loop from lopping till i 100 to 
+looping till i reaches range which is the user selected value
+
+Evidence of correctness:
+	The program is still working correctly and this is evident by
+	the outputs the program is producing for example the echoserver
+	and echocliet now make the new knock knock joke and it is clearly
+	evident its working when you run it  
